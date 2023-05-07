@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Nueva Consulta Medica</title>
+<script src="Scripts/funciones.js"></script>
+</head>
+<body>
+	<form id="formularioCita">
+		<fieldset>
+		<legend>Crear Nueva Cita</legend>
+			ID del Usuario:
+			<input type="text" name="idusuario">
+			<br>
+			ID del Medico:
+			<input type="text" name="idmedico">
+			<br>
+			ID del Centro:
+			<input type="text" name="idcentro">
+			<br>
+			ID de la Consulta:
+			<input type="text" name="idconsulta">
+			<br>
+			<input type="button" name="enviarDatosUsuario" value="Enviar Datos" onclick="crearCitaMedica(this.form)">
+		</fieldset>
+	</form>
+	<br/>
+	<button onclick="volver()">Volver Atras</button>
+	
+</body>
+</html>

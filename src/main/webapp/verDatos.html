@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ver Datos</title>
+<script src="Scripts/funciones.js"></script>
+
+</head>
+<body>
+<label for="ver-select">De que quiere ver los datos:</label>
+
+<select name="ver" id="ver-select">
+    <option value="">--Please choose an option--</option>
+    <option value="usuarios">Usuarios</option>
+    <option value="medicos">Medicos</option>
+    <option value="centros">Centros</option>
+    <option value="consultas">Consultas</option>
+    <option value="citas">Citas Medicas</option>
+</select>
+<br>
+<button onclick="ShowSelected();">Mostrar Datos</button>
+<button onclick="volver()">Volver Atras</button>
+</body>
+</html>

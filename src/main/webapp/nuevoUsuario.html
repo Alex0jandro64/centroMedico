@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Nuevo Usuario</title>
+<script src="Scripts/funciones.js"></script>
+</head>
+<body>
+<form id="formularioUsuario">
+		<fieldset>
+		<legend>Crear Nuevo Usuario</legend>
+			Nombre:
+			<input type="text" name="nombreUsuario" maxlength="20">
+			<br>
+			Apellido:
+			<input type="text" name="apellidoUsuario" maxlength="20">
+			<br>
+			Dni:
+			<input type="text" name="dniUsuario" maxlength="8" min="3">
+			<br>
+			Edad:
+			<input type="number" name="edadUsuario">
+			<br>
+			Telefono:
+			<input type="text" name="telefonoUsuario">
+			<br>
+			Correo Electronico:
+			<input type="email" name="correoUsuario">
+			<br>
+			<input type="button" name="enviarDatosUsuario" value="Enviar Datos" onclick="crearUsuario(this.form)">
+		</fieldset>
+	</form>
+		<br/>
+		<button onclick="volver()">Volver Atras</button>
+		
+	
+</body>
+</html>
